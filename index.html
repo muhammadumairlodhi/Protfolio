@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+  <script src="code.jquery.com_jquery-3.7.0.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <title>umair</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shortcut icon" href="My project 8.png" type="image/x-icon" />
+  <script>
+    // adding to show the drop down
+    $(document).ready(function () {
+      $('#flip').click(function () {
+        $("#panel").slideToggle()
+      })
+    })
+  </script>
+</head>
+
+<body class="body">
+  <!-- nav and  resposive menu -->
+  <header>
+    <nav>
+      <!-- logo -->
+      <div class="left">
+        <a href="umair.html">Umair's Protfolio </a>
+      </div>
+      <!-- nav bar list -->
+      <div class="middle">
+        <ul>
+          <li><a href="umair.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="project.html">Project</a></li>
+          <li><a href="chatbot.html">Chat</a></li>
+        </ul>
+      </div>
+      <!-- button  -->
+      <a href="getstart.html">
+        <div class="right">Get in touch</div>
+      </a>
+      <!-- menu button -->
+      <div id="flip"><i class="fa-solid fa-bars" onclick="ChangeIcon(this)"></i></div>
+    </nav>
+    <!-- resonsive desion -->
+    <div class="dropdown" id="panel">
+      <div class="li">
+        <li><a href="umair.html">Home</a></li>
+      </div>
+      <div class="li">
+        <li><a href="about.html">About</a></li>
+      </div>
+
+
+      <div class="li">
+        <li><a href="project.html">Project</a></li>
+      </div>
+      <div class="li">
+        <li><a href="chatbot.html">Chat</a></li>
+      </div>
+      <div class="li but">
+        <li><a href="getstart.html">Get in touch</a> </li>
+      </div>
+    </div>
+
+  </header>
+  <!-- main first section  -->
+  <main>
+    <div class="first_section">
+      <div class="fs_sec_left">
+        <h1>
+          Hi, My name is <br> <span class="purple">Muhammad Umair.</span><br> I am passionate <br>
+          <span class="typewrite" data-period="1000"
+            data-type='[  "Web Developer.", " Coder .", " WP Developer.","programmer." ]'>
+            <span class="wrap"></span>
+          </span>
+        </h1>
+
+      </div>
+
+      <div class="fs_sec_right">
+        <img src="Images/PngItem_1127587.png" alt="developer">
+      </div>
+    </div>
+  </main>
+  <!-- main secound section -->
+  <main>
+    <div class="sec_section">
+      <hr class="hrr">
+      <div class="front">
+        <h1>Frontend Web Developer</h1>
+      </div>
+      <div class="tec">
+        <p>My <span style="color: rgb(183, 148, 249);">Core </span>Technologies</p>
+        <div class="tec_img">
+          <div class="tec_img_i"> <img src="Images/html.png" alt="" width="100px" height="100px"></div>
+          <div class="tec_img_i"> <img src="Images/css.png" alt="" width="100px" height="100px"></div>
+          <div class="tec_img_i"> <img src="Images/JS.png" alt="" width="100px" height="100px"></div>
+          <div class="tec_img_i"> <img src="Images/jquery.png" alt="" width="100px" height="100px"></div>
+          <div class="tec_img_i"> <img src="Images/bootstrap.png" alt="" width="100px" height="100px"></div>
+          <div class="tec_img_i"> <img src="Images/react.png" alt="" width="100px" height="100px"></div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <hr class="hrr">
+    <div class="front2">
+      <h1> Let's Build together.</h1>
+      <h1>Connect with me.</h1>
+    </div>
+    <div class="cont">
+      <a href="#">
+        <div class="links"><i class="fa-brands fa-linkedin-in" style="color: #2d66c8;"></i></div>
+      </a>
+      <a href="#">
+        <div class="links"><i class="fa-brands fa-youtube" style="color: #fa0000;"></i></div>
+      </a>
+      <a href="#">
+        <div class="links"><i class="fa-brands fa-x-twitter" style="color: #000000;"></i></div>
+      </a>
+      <a href="#">
+        <div class="links"><i class="fa-brands fa-github" style="color: #06090f;"></i></div>
+      </a>
+    </div>
+  </main>
+
+  <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+<script src="https://mediafiles.botpress.cloud/db52d3e1-4a13-45f4-b003-8a2204fc60e6/webchat/config.js" defer></script>
+
+</body>
+<hr>
+<footer>
+  <div class="footer">
+    <h1>Developed by <span class="purple"> ⁓ Muhammad Umair  .</span> </h1>
+
+  </div>
+</footer>
+
+
+</html>    

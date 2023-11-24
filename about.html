@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <script src="code.jquery.com_jquery-3.7.0.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <title>About-Umair</title>
+  <link rel="shortcut icon" href="My project 8.png" type="image/x-icon" />
+  <script>
+    // adding to show the drop down
+    $(document).ready(function () {
+      $("#flip").click(function () {
+        $("#panel").slideToggle("slow");
+      });
+    });
+  </script>
+
+
+  <style>
+    body {
+      height: 200vw;
+      background: linear-gradient(45deg, #010758,#490d61);
+    
+       color: #ff2963;
+
+    }
+
+    .a_first {
+      display: flex;
+    }
+
+    .a_first_a {
+      width: 700px;
+      height: 250px;
+      background-color: rgb(91, 91, 91);
+      margin-top: 100px;
+      border-radius: 30px;
+     
+    }
+.a_first_a h1{
+color: rgb(219, 183, 219);
+
+}
+    .a_first_b {
+      width: 400px;
+      height: 250px;
+      background-color: rgba(122, 108, 214, 0.224);
+      margin-top: 100px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      border-radius: 30px;
+      box-shadow: 0 0 128px 0 rgb(172, 168, 168),
+        0 32px 64px 48px rgba(173, 72, 72, 0.5);
+
+    }
+
+    .a_first_b img {
+      margin-top: 14px;
+
+    }
+
+    @media only screen and (max-width:980px) {
+      .a_first {
+        flex-direction: column-reverse;
+      }
+
+      .a_first_b {
+        width: 700px;
+        text-align: center;
+        margin-top: 20px;
+
+      }
+
+      .a_first_a {
+        margin-top: 20px;
+        height: auto 100px;
+      }
+      .a_first_b{
+        box-shadow: none;
+      }
+
+    }
+
+    .front h1 {
+      margin-top: 500px;
+    }
+
+    .a_first_a h1 {
+      margin-top: 20px;
+      margin-left: 50px;
+    }
+
+    .a_first_a p {
+      font-size: 23px;
+      margin-left: 50px;
+      margin-top: 20px;
+      word-spacing: 5px;
+      line-height: 40px;
+      color: rgb(219, 183, 219);
+    }
+
+    @media (max-width: 730px) {
+      .a_first_a {
+        width: 98%;
+        height: auto;
+
+      }
+
+      .a_first_b {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    @media (max-width:394px) {
+      .a_first_a {
+        width: 98%;
+        height: auto;
+
+      }
+
+      .a_first_b {
+        width: 100%;
+        height: auto;
+        text-align: center;
+
+      }
+    }
+
+    /* secound section */
+    .a_sec {
+
+      margin-top: 30px;
+    }
+
+    /* styling a section */
+    .a_sec_a {
+      width: 45%;
+      height: 500px;
+      background-color: rgb(91, 91, 91);
+      float: left;
+      margin-left: 30px;
+      border-radius: 30px;
+     
+    }
+
+    /* styling b section */
+    .a_sec_b {
+      width: 45%;
+      height: 290px;
+      background-color: rgb(91, 91, 91);
+      float: right;
+      margin-right: 30px;
+      border-radius: 30px;
+     
+
+    }
+
+    /* styling c  section */
+    .a_sec_c {
+      width: 45%;
+      height: 190px;
+      background-color: rgb(91, 91, 91);
+      float: right;
+      margin-right: 30px;
+      margin-top: 30px;
+      border-radius: 30px;
+    
+    }
+
+    /* styling glow */
+   
+
+    /* styling all h1 of secound section */
+    .a_sec_a h1,
+    .a_sec_b h1,
+    .a_sec_c h1 {
+      color: rgb(219, 183, 219);
+      margin-top: 10px;
+      margin-left: 25px;
+    }
+
+    /* styling the connect */
+    .a_link {
+
+      margin-top: 5px;
+      margin-left: 20px;
+    }
+
+    .a_in {
+      width: 150px;
+      height: 38px;
+      border: 2px solid rgb(219, 183, 219);
+      text-align: center;
+      color: rgb(219, 183, 219);
+      border-radius: 13px;
+      font-size: 20px;
+      display: inline-block;
+      margin-top: 30px;
+      margin-left: 20px;
+      padding-top: 13px;
+
+    }
+
+    .a_in:hover {
+      color: rgb(223, 11, 223);
+      border-color: rgb(223, 11, 223);
+    }
+
+    .a_skills {
+      margin-top: 10px;
+      margin-left: 20px;
+    }
+
+    .a_skill {
+      width: 120px;
+      border: 2px solid rgb(219, 183, 219);
+      height: 30px;
+      display: inline-block;
+      border-radius: 13px;
+      text-align: center;
+      padding-top: 10px;
+      margin: 7px;
+      color: rgb(219, 183, 219);
+    }
+
+    .a_skill:hover {
+      cursor: pointer;
+      color: rgb(223, 11, 223);
+      border-color: rgb(223, 11, 223);
+    }
+
+    .hr2 {
+      width: 70%;
+      border: 0.25px solid rgb(219, 183, 219);
+      margin-left: 15px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .a_matric {
+      width: 100%;
+      height: 120px;
+      background-color: #ff4da6;
+
+    }
+
+    .a_inter {
+      width: 100%;
+      height: 120px;
+      background-color: aqua;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .a_development {
+      width: 100%;
+      height: 120px;
+      background-color: blue;
+    }
+    .about{
+      margin-top: 100px;
+      font-size: 70px;
+  
+    }
+  </style>
+</head>
+<!-- nav bar and  responsive menu -->
+<header>
+  <nav>
+    <!-- logo -->
+    <div class="left">
+      <a href="umair.html">Umair's Protfolio </a>
+    </div>
+    <!-- nav bar list -->
+    <div class="middle">
+      <ul>
+        <li><a href="umair.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="project.html">Project</a></li>
+        <li><a href="chatbot.html">Chatbot</a></li>
+
+      </ul>
+    </div>
+    <!-- button  -->
+    <a href="getstart.html">
+      <div class="right">Get in touch</div>
+    </a>
+    <!-- menu button -->
+    <div id="flip"><i class="fa-solid fa-bars" onclick="ChangeIcon(this)"></i></div>
+  </nav>
+  <!-- resonsive desion -->
+  <div class="dropdown" id="panel">
+    <div class="li">
+      <li><a href="umair.html">Home</a></li>
+    </div>
+    <div class="li">
+      <li><a href="about.html">About</a></li>
+    </div>
+
+
+    <div class="li">
+      <li><a href="project.html">Project</a></li>
+    </div>
+    <div class="li">
+      <li><a href="chatbot.html">Chatbot</a> </li>
+    </div>
+    <div class="li but">
+      <li><a href="getstart.html">Get in touch</a> </li>
+    </div>
+
+  </div>
+
+</header>
+
+
+<body>
+    <h1 class="front2 about">About Me</h1>
+
+  <div class="a_first">
+    <div class="a_first_a">
+      <h1>Muhammad Umair</h1>
+      <p>Hello 👋 Welcome to my portfolio! I'm Muhammad Umair, a dedicated front-end web developer with a strong passion
+        for crafting visually appealing and intuitive websites.</p>
+    </div>
+    <div class="a_first_b">
+      <img src="Images/umair2212.png" alt="" width="400px">
+    </div>
+  </div>
+  <hr class="hrr">
+  <div class="a_sec">
+    <div class="a_sec_a">
+      <h1>Education</h1>
+      <hr class="hr2">
+      <div class="a_matric">
+        <h2>Matric</h2>
+      </div>
+      <div class="a_inter"></div>
+      <div class="a_development"></div>
+    </div>
+    
+    <div class="a_sec_b">
+      <h1> Skills</h1>
+      <hr class="hr2">
+      <div class="a_skills">
+        <div class="a_skill">HTML</div>
+        <div class="a_skill">CSS</div>
+        <div class="a_skill">JAVASCRIPT</div>
+        <div class="a_skill">jQuery</div>
+        <div class="a_skill">Bootstrap</div>
+        <div class="a_skill">Tailwind</div>
+
+
+
+      </div>
+
+    </div>
+
+    <div class="a_sec_c">
+      <h1> ~ Lets Connect</h1>
+      <hr class="hr2">
+      <a class="a_link">
+        <a href="#">
+          <div class="a_in"> <i class="fa-brands fa-linkedin"></i> Linkedin</div>
+        </a>
+        <a href="#">
+          <div class="a_in"> <i class="fa-brands fa-square-github"></i> Github</div>
+        </a>
+    </div>
+
+  </div>
+
+
+</body>
+
+</html>

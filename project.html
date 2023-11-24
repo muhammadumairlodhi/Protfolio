@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="code.jquery.com_jquery-3.7.0.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <title>Project-umair</title>
+    <link rel="shortcut icon" href="My project 8.png" type="image/x-icon" />
+    <script>
+        // adding to show the drop down
+        $(document).ready(function () {
+            $("#flip").click(function () {
+                $("#panel").slideToggle("slow");
+            });
+        });
+    </script>
+
+    <style>
+        body {
+            background-color:rgb(0, 0, 33);
+        }
+        .txt h1{
+            margin-top: 20px;
+            display:flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<!-- nav bar and responsive menu -->
+<header>
+    <nav>
+        <!-- logo -->
+        <div class="left">
+        <a href="umair.html">Umair's Protfolio </a></div>
+
+        <!-- nav bar list -->
+        <div class="middle">
+            <ul>
+                <li><a href="umair.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="chatbot.html">Chatbot</a></li>
+
+            </ul>
+        </div>
+        <!-- button  -->
+        <a href="getstart.html">
+            <div class="right">Get in touch</div>
+          </a>
+        <!-- menu button -->
+        <div id="flip"><i class="fa-solid fa-bars" onclick="ChangeIcon(this)"></i></div>
+    </nav>
+    <!-- resonsive desion -->
+    <div class="dropdown" id="panel">
+        <div class="li">
+            <li><a href="umair.html">Home</a></li>
+        </div>
+        <div class="li">
+            <li><a href="about.html">About</a></li>
+        </div>
+    
+        <div class="li">
+            <li><a href="project.html">Project</a></li>
+        </div>
+        <div class="li">
+            <li><a href="chatbot.html">Chatbot</a> </li>
+          </div>
+        <div class="li but">
+            <li><a href="getstart.html">Get in touch</a></li>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="txt">
+        <h1>My Project</h1>
+    </div>
+
+</main>
+
+<body>
+
+</body>
+
+</html>
